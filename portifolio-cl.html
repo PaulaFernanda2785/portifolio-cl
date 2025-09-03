@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio-cl</title>
+    <link rel="shortcut icon" href="imagens/logo_cl-100.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="logo-cl">
+            <a href="#">
+                <div id="logo-1"></div>
+                <div id="logo-2"></div>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <a href="#servico">Serviços</a>
+                <a href="#portifolio">Portifólio</a>
+                <a href="#processos">Processos</a>
+                <a href="#preco">Preço</a>
+                <a href="#contato" class="destaque">Contato</a>
+            </ul>
+        </nav>
+        <section id="menu-btn">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="slide-menu">
+                <ul>
+                    <a href="#servico">Serviços</a>
+                    <a href="#portifolio">Portifólio</a>
+                    <a href="#processos">Processos</a>
+                    <a href="#preco">Preço</a>
+                    <a href="#contato" class="destaque">Contato</a>
+                </ul>
+            </div>
+            <div class="overlay"></div>
+        </section>
+    </header>
+    <main>
+        <section id="home">
+            <div id="texto-principal">
+                <h1>
+                    Sites modernos, rápidos e prontos para gerar resultado.
+                </h1>
+                <p>
+                    Olá! Eu sou <strong>Paula Fernanda</strong>, desenvolvedora web. Transformo sua ideia em um site bonito, acessível  e otimizado — do conceito à publicação, com foco no que importa: conversão.
+                </p>
+                <ul>
+                    <a href="https://wa.me/5591980852556" target="_blank" rel="noopener">
+                        <li class="destaque">FALAR NO WHATSAPP</li>
+                    </a>
+                    <a href="#potifolio">
+                        <li class="lista">VER TRABALHOS</li>
+                    </a>
+                </ul>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>SEO</li>
+                    <li>ACESSIBILIDADE</li>
+                </ul>
+            </div>
+            <div id="imagem-princial">
+                <img src="imagens/imagem-01-400.png" class="pequena" alt="imagem-princial">
+            </div>
+        </section>
+        <section id="servico">
+            <h2>titulo</h2>
+        </section>
+        <section id="portifolio">
+            <h2>titulo</h2>
+        </section>
+        <section id="processos">
+            <h2>titulo</h2>
+        </section>
+        <section id="preco">
+            <h2>titulo</h2>
+        </section>
+        <section id="contato">
+            <h2>titulo</h2>
+        </section>
+    </main>
+<footer class="footer">
+<div class="container footer__inner">
+    <p>© <span id="ano"></span> Paula Fernanda. Todos os direitos reservados.</p>
+    <nav aria-label="Rodapé">
+    <a href="#servico">Serviços</a>
+    <a href="#portifolio">Portfólio</a>
+    <a href="#contato" class="destaque">Contato</a>
+    </nav>
+</div>
+</footer>
+</body>
+<script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+</script>
+</html>
