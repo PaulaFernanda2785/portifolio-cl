@@ -271,6 +271,8 @@ section#home{
     width: auto;
     margin: auto;
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.414);
 }
 #imagem-princial{
     padding: 10px;
@@ -293,6 +295,7 @@ section#home img{
 /*=======style section (serviços)======*/
 section#servico{
     margin-top: 50px;
+    padding-bottom: 30px;
     background-image: linear-gradient(to right, var(--cor03), var(--cor05));
     width: auto;
     height: auto;
@@ -301,10 +304,10 @@ section#servico{
 }
 #card-servicos{
     display: inline-flex;
-    min-width: 500px
+    min-width: 450px
 }
 section#servico > h2{
-    padding: 20px;
+    padding: 40px 20px 20px 20px;
 }
 section#servico > p{
     padding: 20px;
@@ -327,5 +330,37 @@ section#servico > p{
         padding-left: 0;
         padding-top: 0px;
         max-width: 280px
+    }
+    #servico > p {
+        font-size: 15px;
+    }
 }
+section .card-servicos > h3{
+    color: var(--cor01);
+    text-align: justify;
+    padding: 20px;
+
+}
+section .card-servicos > p{
+    font-size: 1em;
+    color: var(--cor01);
+    text-align: justify;
+    padding: 20px;
+}
+section .card-servicos > ul{
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+}
+section ,.card-servicos li{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.414);
+}
+#e-commerce-basico{
+    margin-bottom: 20px;
+}
+.linhas{
+    text-align: center;
+    justify-items: center;
+    color: rgba(0, 0, 0, 0.168);
+    max-height: 280px;
 }
