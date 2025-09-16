@@ -463,3 +463,43 @@ section#portifolio img{
         font-size: 15px;
     }
 }
+/*=======style section (meus processos)======*/
+section#processos{
+    background-image: linear-gradient(to right, var(--cor03), var(--cor05));
+    margin-top: 50px;
+    padding-bottom: 30px;
+    background-color: var(--cor01);
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.414);
+}
+section#processos > h2{
+    padding: 40px 20px 20px 20px;
+}
+.meus-processos{
+    display: block;
+    padding: 5px;
+    max-width: 100%;
+}
+.processos {
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.414);
+    margin: 0px 20px 10px 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.processos > p{
+    color: white;
+    padding: 3px;
+    max-width: 1000px;
+}
+.processos:hover{
+    background-image: linear-gradient(to right, var(--cor02), var(--cor03));
+    transition: background-color 0.3s, color 0.3s;
+}
+@media (max-width: 715px) {
+    .processos > p{
+        font-size: 0.7em;
+    }
+}
