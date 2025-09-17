@@ -513,6 +513,12 @@ article#preco-conversar{
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.414);
 }
-article  h2{
+article#preco-conversar  h2{
     padding: 40px 20px 20px 20px;
+}
+#card-preco{
+    display: flex;
+}
+.preco{
+    background-image: linear-gradient(to right, var(--cor02), var(--cor03));
 }
