@@ -503,3 +503,16 @@ section#processos > h2{
         font-size: 0.7em;
     }
 }
+/*=======style section (preço e vamos conversar)======*/
+article#preco-conversar{
+    background-color: var(--cor01);
+    margin-top: 50px;
+    padding-bottom: 30px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.414);
+}
+article  h2{
+    padding: 40px 20px 20px 20px;
+}
