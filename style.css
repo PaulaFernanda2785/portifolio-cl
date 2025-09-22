@@ -311,9 +311,11 @@ section#servico{
 }
 section#servico > h2{
     padding: 40px 20px 20px 20px;
+    color: var(--cor01);
 }
 section#servico > p{
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
+    color: var(--cor01);
 }
 .card-servicos{
     background-color: var(--cor02);
@@ -337,6 +339,9 @@ section#servico > p{
     }
     #servico > p {
         font-size: 15px;
+    }
+    section .card-servicos > p {
+        font-size: 0.9em;
     }
 }
 section .card-servicos > h3{
@@ -480,6 +485,7 @@ section#processos{
 }
 section#processos > h2{
     padding: 40px 20px 20px 20px;
+    color: var(--cor01);
 }
 .meus-processos{
     display: block;
